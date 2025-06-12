@@ -1,0 +1,8 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution__links {
+    color: var(--footer-links);
+}
