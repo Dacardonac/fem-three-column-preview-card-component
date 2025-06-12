@@ -1,0 +1,53 @@
+{
+  "name": "fem-three-column-preview-card-component",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "commit": "cz",
+    "pre-commit": "lint-staged",
+    "prepare": "husky"
+  },
+  "overrides": {
+    "glob": "^11.0.2",
+    "inflight": "^1.0.6"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.10",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@eslint/js": "^9.28.0",
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react-swc": "^3.10.2",
+    "autoprefixer": "^10.4.21",
+    "commitizen": "^4.3.1",
+    "esbuild": "^0.25.5",
+    "eslint": "^9.28.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.0",
+    "postcss": "^8.5.5",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^4.1.10",
+    "vite": "^6.3.5"
+  },
+  "description": "Three columns preview card component with Tailwind CSS and React",
+  "main": "eslint.config.js",
+  "keywords": [
+    "React, Tailwind CSS, Component, Card, Preview, Three Columns"
+  ],
+  "author": "Daniel Alejandro Cano Cardona",
+  "license": "ISC"
+}
