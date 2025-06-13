@@ -38,7 +38,7 @@ This is a solution to the **[Three Column Preview Card Component challenge on Fr
 
 Desktop 🖥️
 
-**![Solution Desktop Screenshot]()**
+**![Solution Desktop Screenshot](./public/screenshots/desktop-screenshot.webp)**
 
 
 Mobile 🤳
@@ -47,8 +47,8 @@ Mobile 🤳
 
 ### Links 📍
 
-- Solution URL: **[Frontend Mentor Solution 👨‍💻]()**
-- Live Site URL: **[Solution Deploy in Vercel 🚀]()**
+- Solution URL: **[Frontend Mentor Solution 👨‍💻](https://www.frontendmentor.io/solutions/three-column-preview-card-component-with-react-and-tailwind-aIBrIkMIpf)**
+- Live Site URL: **[Solution Deploy in Vercel 🚀](https://fem-three-column-preview-card-compo.vercel.app/)**
 
 ### How to Use the Project 💻
 
