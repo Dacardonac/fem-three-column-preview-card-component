@@ -2,13 +2,6 @@
   width: 327px;
   height: 455px;
   overflow: hidden;
-
-  &:first-child {
-    border-radius: 8px 8px 0 0;
-  }
-  &:last-child {
-    border-radius: 0 0 8px 8px;
-  }
 }
 
 .card__title {
@@ -21,4 +14,21 @@
   font-size: 1rem;
   line-height: 25px;
   color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card:first-child {
+  border-radius: 8px 8px 0 0;
+}
+.card:last-child {
+  border-radius: 0 0 8px 8px;
+}
+
+@media (min-width: 1280px) {
+  .card:first-child {
+    border-radius: 8px 0 0 8px;
+  }
+
+  .card:last-child {
+    border-radius: 0 8px 8px 0;
+  }
 }

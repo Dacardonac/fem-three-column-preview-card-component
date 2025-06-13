@@ -1,9 +1,11 @@
 import Card from '../card/Card';
-import './Content.css';
 
 const Content = () => {
   return (
-    <section className="content py-[88px] px-[24px] flex flex-col items-center justify-center">
+    <section
+      className=" w-full max-w-[1110px] mx-auto py-[88px] px-[24px]
+                  flex flex-col xl:flex-row justify-center items-center"
+    >
       <Card
         background="hsl(31, 77%, 52%)"
         icon="images/icon-sedans.svg"
