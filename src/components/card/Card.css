@@ -24,6 +24,16 @@
 }
 
 @media (min-width: 1280px) {
+
+  .card {
+    width: 307px;
+    height: 500px;
+  }
+
+  .card__paragraph {
+    font-size: 17px;
+  }
+
   .card:first-child {
     border-radius: 8px 0 0 8px;
   }
